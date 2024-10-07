@@ -225,23 +225,6 @@
   
   
     <li class="md-tabs__item">
-      <a href="overview/" class="md-tabs__link">
-        
-  
-    
-  
-  Overview
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
       <a href="steps/" class="md-tabs__link">
         
   
@@ -382,6 +365,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#history" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="History">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#version-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 1
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -402,26 +427,6 @@
   
   <span class="md-ellipsis">
     Downloads
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="overview/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Overview
   </span>
   
 
@@ -500,6 +505,27 @@
 <h2 id="available-steps">Available Steps</h2>
 <ul>
 <li>Execute a REXX program</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>No special steps are required for installation. See <a href="https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins">Installing plug-ins in UrbanCode products</a>.</p>
+<h2 id="history">History</h2>
+<h3 id="version-2">Version 2</h3>
+<ul>
+<li>Added new checkbox input to show debug logs in case of any unknown failure.</li>
+<li>Output will now show the elapsed time of the REXX program</li>
+<li>New output property RexxReturnCode will store the return code of the REXX program</li>
+<li>Fixes output buffer issue when output has too much data</li>
+<li>Arguments can now be as big as 248 characters</li>
+<li>Fixed issue with work directory during two or more parallel step execution</li>
+<li>Minor improvements in temporary directory creation</li>
+<li>Fixed handling of CLIST error message response from ISPF Gateway</li>
+<li>Changes to run process in Legacy ISPF Gateway</li>
+<li>Improvements in ISPF gateway error handling</li>
+<li>Fixed PH62152 - RcException while allocating temporary datasets</li>
+</ul>
+<h3 id="version-1">Version 1</h3>
+<ul>
+<li>Initial release</li>
 </ul>
 
 
