@@ -1,4 +1,4 @@
-name: Deploy documentation site
+name: Create static site from markdown files using MkDocs
 
 on:
   push:
